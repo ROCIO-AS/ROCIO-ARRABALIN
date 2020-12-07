@@ -1,0 +1,49 @@
+body h2 {
+  color: palevioletred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
+div.hotelscontainer {
+  display: block;
+  max-width: 300px;
+  min-width: 100px;
+}
+span.HOTELNAME {
+  color: black;
+  background-color: palevioletred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+span.HOTELDESCRIPTION {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+span.HOTELTELEFONO {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  background: palevioletred;
+}
+div.stars {
+  display: inline-flex;
+  size: 16px;
+  color: palevioletred;
+  cursor: pointer;
+  margin-inline-start: auto;
+}
+div.HOTELPRECIO {
+  color: red;
+  size: 16px;
+  display: inline-table;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
